@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ScrollerSkin" minWidth="20" minHeight="20" xmlns:e="http://ns.egret.com/eui" width="200" height="200">
+    <e:HScrollBar id="horizontalScrollBar" width="100%" bottom="0"/>
+	<e:Image width="30" height="100%" y="0" anchorOffsetY="0" anchorOffsetX="0" source="track_sb_png" right="0"/>
+    <e:VScrollBar id="verticalScrollBar" height="100%" autoVisibility="false" anchorOffsetX="0" width="30" y="0" right="0"/>
+</e:Skin>

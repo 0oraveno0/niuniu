@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameUISkin_v0" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="1280" height="720" x="0" y="0">
+		<e:Image width="1280" height="720" x="0" y="0" source="bg_png" locked="true"/>
+		<e:Image width="20" height="20" x="665" y="202" locked="true"/>
+		<e:Group id="game_gp" width="1095" height="380" x="90" y="196" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image width="45" height="65" x="378" y="-97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="card_back_png" name="first_card"/>
+			<e:Image width="45" height="65" x="950" y="-135" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="card_back_png" name="deck_card" rotation="110"/>
+			<e:Group width="282" height="68" x="447" y="-97" anchorOffsetY="0" anchorOffsetX="0" name="p0">
+				<e:Image width="45" height="65" x="5" y="5" source="card_back_png"/>
+				<e:Image width="45" height="65" x="15" y="15" source="card_back_png"/>
+				<e:Image width="45" height="65" x="25" y="25" source="card_back_png"/>
+				<e:Image width="45" height="65" x="35" y="35" source="card_back_png"/>
+				<e:Image width="45" height="65" x="17" y="45" source="card_back_png"/>
+				<e:Group width="125" height="60" x="-305.63906795570557" y="140.24450128708145" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image width="125" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Banker_bg.@2x_png"/>
+				<e:Label text="牛牛" x="38" y="11" anchorOffsetX="0" width="55" anchorOffsetY="0" height="32" size="25" verticalAlign="top" bold="true" textColor="0x087C04"/>
+				<e:Image width="55" height="32" x="38" y="11" source="Niu.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+				</e:Group>
+				<e:layout>
+				<e:HorizontalLayout paddingLeft="5" gap="11.5"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="-242" height="325" x="743" y="-5" anchorOffsetY="0" anchorOffsetX="0" name="p1">
+				<e:Group width="170" height="145" x="4.26" y="78.28" anchorOffsetX="0" anchorOffsetY="0" rotation="-13">
+				<e:Image width="45" height="65" x="36.03" y="1.78" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="93.03" y="1.78" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="8" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="64" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="120" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Group width="125" height="60" x="141.36093204429443" y="43.24450128708145" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:Image width="125" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Banker_bg.@2x_png"/>
+					<e:Label text="牛牛" x="38" y="11" anchorOffsetX="0" width="55" anchorOffsetY="0" height="32" size="25" verticalAlign="top" bold="true" textColor="0x087C04"/>
+					<e:Image width="55" height="32" x="38" y="11" source="Niu.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Label text="贏: 1000" x="25" y="62" anchorOffsetX="0" width="85" anchorOffsetY="0" height="20.08" size="18" verticalAlign="top" textColor="0xFF0000" bold="true"/>
+				</e:Group>
+				</e:Group>
+				<e:Group width="382" height="198" x="-51.67" y="183.33" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group width="208.5" height="157" x="15.5" y="32" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="45.02" y="63.34" anchorOffsetX="0" anchorOffsetY="0" rotation="350.78">
+					<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+					<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="203.5" height="155" x="2" y="1" anchorOffsetX="0" anchorOffsetY="0" source="Selected_5.@2x_png" name="0"/>
+				</e:Group>
+				<e:Group width="209" height="172.5" x="188.77" y="-9.64" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="40.52" y="78.84" anchorOffsetX="0" anchorOffsetY="0" rotation="343.9">
+					<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+					<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="209.5" height="172.5" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Selected_6.@2x_png" name="1"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group width="370" height="319" x="360" y="61" anchorOffsetY="0" name="p2">
+				<e:Group width="170" height="145" x="103" y="22" anchorOffsetX="0" anchorOffsetY="0" rotation="0" scaleX="1" scaleY="1">
+					<e:Image width="45" height="65" x="37" y="2" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+					<e:Image width="45" height="65" x="94" y="2" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+					<e:Image width="45" height="65" x="8" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+					<e:Image width="45" height="65" x="64" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+					<e:Image width="45" height="65" x="120" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+					<e:Group width="125" height="60" x="141.36093204429443" y="43.24450128708145" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:Image width="125" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Banker_bg.@2x_png"/>
+					<e:Label text="牛牛" x="38" y="11" anchorOffsetX="0" width="55" anchorOffsetY="0" height="32" size="25" verticalAlign="top" bold="true" textColor="0x087C04"/>
+					<e:Image width="55" height="32" x="38" y="11" source="Niu.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Label text="贏: 1000" x="25" y="62" anchorOffsetX="0" width="85" anchorOffsetY="0" height="20.08" size="18" verticalAlign="top" textColor="0xFF0000" bold="true"/>
+					</e:Group>
+				</e:Group>
+				<e:Group width="382" height="198" x="0" y="122" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:Group width="181.5" height="136" x="7" y="53.5" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="45.52" y="42.34" anchorOffsetX="0" anchorOffsetY="0" rotation="2.1">
+						<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+						<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="181.5" height="136" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Selected_3.@2x_png" name="2"/>
+					</e:Group>
+					<e:Group width="177.5" height="136.5" x="191.27" y="53.36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="25.52" y="46.84" anchorOffsetX="0" anchorOffsetY="0" rotation="356.5">
+						<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+						<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="177.5" height="136.5" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Selected_4.@2x_png" name="3"/>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group width="412" height="382" x="4" y="-15" anchorOffsetY="0" anchorOffsetX="0" rotation="0" name="p3">
+				<e:Group width="170" height="145" x="167.26" y="45.28" anchorOffsetX="0" anchorOffsetY="0" rotation="13">
+				<e:Image width="45" height="65" x="37" y="2" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="94" y="2" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="8" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="64" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Image width="45" height="65" x="120" y="75" anchorOffsetX="0" anchorOffsetY="0" source="card_back_png"/>
+				<e:Group width="125" height="60" x="141.36093204429443" y="43.24450128708145" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:Image width="125" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Banker_bg.@2x_png"/>
+					<e:Label text="牛牛" x="38" y="11" anchorOffsetX="0" width="55" anchorOffsetY="0" height="32" size="25" verticalAlign="top" bold="true" textColor="0x087c04"/>
+					<e:Image width="55" height="32" x="38" y="11" source="Niu.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Label text="贏: 1000" x="25" y="62" anchorOffsetX="0" width="85" anchorOffsetY="0" height="20.08" size="18" verticalAlign="top" textColor="0xff0000" bold="true"/>
+				</e:Group>
+				</e:Group>
+				<e:Group width="382" height="198" x="0" y="183.33" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group width="207" height="170" x="3" y="1" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="69.02" y="50.34" anchorOffsetX="0" anchorOffsetY="0" rotation="13">
+					<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+					<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="207" height="170" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Selected_1.@2x_png" name="4"/>
+				</e:Group>
+				<e:Group width="202" height="156" x="179.77" y="42.86" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="104" height="43" x="54.52" y="44.84" anchorOffsetX="0" anchorOffsetY="0" rotation="8">
+					<e:Image width="104" height="43" x="0" y="0" source="MultipleBg_png"/>
+					<e:Label text="1:095" x="0" y="0" width="104" height="43" verticalAlign="middle" textAlign="center" size="35" textColor="0x686868"/>
+					</e:Group>
+					<e:Image width="202" height="156" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Selected_2.@2x_png" name="5"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group width="1095" height="380" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" name="chip" touchThrough="true">
+				<e:Group width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" x="810" y="286"/>
+				<e:Group width="1" height="1" x="981" y="255" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+				<e:Group width="1" height="1" x="462" y="305" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+				<e:Group width="1" height="1" x="635" y="304" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+				<e:Group width="1" height="1" x="120" y="253" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+				<e:Group width="1" height="1" x="293" y="286" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="1095" height="210" x="0" y="170" anchorOffsetX="0" anchorOffsetY="0" name="lb" touchThrough="true">
+				<e:Group width="100" height="40" x="800.44" y="46.53" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" rotation="345.59">
+				<e:Image width="100" height="40" x="0" y="0" source="money_bg.@2x3_png" anchorOffsetX="0"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="100" anchorOffsetY="0" height="40"/>
+				</e:Group>
+				<e:Group width="215" height="40" x="888" y="24" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" rotation="345.59">
+				<e:Image width="215" height="40" x="0" y="0" source="money_bg.@2x3_png" anchorOffsetX="0"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="215" anchorOffsetY="0" height="40"/>
+				</e:Group>
+				<e:Group width="100" height="40" x="472" y="55" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image width="100" height="40" x="0" y="0" source="money_bg.@2x3_png"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="100" anchorOffsetY="0" height="40"/>
+				</e:Group>
+				<e:Group width="215" height="40" x="557" y="55" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image width="215" height="40" x="0" y="0" source="money_bg.@2x3_png"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="215" anchorOffsetY="0" height="40"/>
+				</e:Group>
+				<e:Group width="100" height="40" x="137.41" y="14.36" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" rotation="12">
+				<e:Image width="100" height="40" source="money_bg.@2x3_png" y="0" x="0"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="100" anchorOffsetY="0" height="40"/>
+				</e:Group>
+				<e:Group width="215" height="40" x="222.11" y="32.19" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" rotation="12">
+				<e:Image width="215" height="40" x="0" y="0" source="money_bg.@2x3_png"/>
+				<e:Label text="" x="0" y="0" size="19" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="215" anchorOffsetY="0" height="40"/>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="control_gp" width="1280" height="720" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" locked="true">
+			<e:Group width="1280" height="170" x="0" y="550" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0" name="coin_btn_gp">
+				<e:Button label="" x="340" y="0" anchorOffsetY="0" height="100" width="100" icon="0" anchorOffsetX="0" name="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="1_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="440" y="10" width="100" height="100" icon="1" anchorOffsetX="0" anchorOffsetY="0" name="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="5_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="540" y="20" anchorOffsetY="0" height="100" width="100" icon="2" anchorOffsetX="0" name="2">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="10_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="640" y="20" width="100" height="100" icon="3" anchorOffsetX="0" anchorOffsetY="0" name="3">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="25_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="740" y="10" width="100" height="100" icon="4" anchorOffsetX="0" anchorOffsetY="0" name="4">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="100_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="840" y="0" width="100" height="100" icon="5" anchorOffsetX="0" anchorOffsetY="0" name="5">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="500_big.@2x_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="180.3" height="372.72" x="1082.61" y="333.77" anchorOffsetX="0" anchorOffsetY="0" name="next_btn_gp" touchThrough="true">
+				<e:Button label="" x="15.18" y="201.29" width="163" height="163" name="next">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="next.@2x_png" source.down="next_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="76.91" y="100.34" anchorOffsetX="0" width="95" anchorOffsetY="0" height="95" name="same">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="normal.@2x_png" source.down="normal_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button label="" x="76.66" y="-7.66" width="95" height="95" rotation="0" anchorOffsetY="0" anchorOffsetX="0" name="double">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="-double.@2x_png" source.down="-double_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group width="1095" height="380" x="90" y="196" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" touchThrough="true" name="toggle_gp">
+				<e:Image width="203.5" height="155" x="709" y="211.06" anchorOffsetX="0" anchorOffsetY="0" source="Selected_5.@2x_png" name="0" alpha="0.001" touchEnabled="true"/>
+				<e:Image width="209.5" height="172.5" x="879.36" y="169.75" anchorOffsetX="0" anchorOffsetY="0" source="Selected_6.@2x_png" name="1" alpha="0.001" touchEnabled="true"/>
+				<e:Image width="181.5" height="136" x="367.25" y="240" anchorOffsetX="0" anchorOffsetY="0" source="Selected_3.@2x_png" name="2" alpha="0.001" touchEnabled="true"/>
+				<e:Image width="177.5" height="136.5" x="552.25" y="237.5" anchorOffsetX="0" anchorOffsetY="0" source="Selected_4.@2x_png" name="3" alpha="0.001" touchEnabled="true"/>
+				<e:Image width="207" height="170" x="5.77" y="169.72" anchorOffsetX="0" anchorOffsetY="0" source="Selected_1.@2x_png" name="4" alpha="0.001" touchEnabled="true"/>
+				<e:Image width="202" height="156" x="183.07" y="211.01" anchorOffsetX="0" anchorOffsetY="0" source="Selected_2.@2x_png" name="5" alpha="0.001" touchEnabled="true"/>
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Image width="181.4" height="34.15" x="545.8" y="679.25" anchorOffsetX="0" anchorOffsetY="0" source="tips.@2x_png" name="limit"/>
+			<e:Image width="286.62" height="62.96" x="18.15" y="631.56" anchorOffsetX="0" anchorOffsetY="0" source="balance.@2x_png"/>
+			<e:Button label="" x="17.4" y="550.8" width="152.67" height="63.87" name="record">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="history_off.@2x_png" source.down="history_off_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" x="1096.94" y="534.2" scaleX="1" scaleY="1" name="play">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="start.@2x_png" source.down="start_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="999999+" x="76" y="641" anchorOffsetX="0" width="215" anchorOffsetY="0" height="40" verticalAlign="middle" textColor="0xc6c6c6" name="balance" textAlign="center"/>
+			<e:Image width="64.12" height="64.78" x="1113.32" y="20.68" anchorOffsetX="0" anchorOffsetY="0" source="Voice_on.@2x_png" name="mute"/>
+			<e:Button label="" x="1195" y="21.66" anchorOffsetX="0" width="62.67" anchorOffsetY="0" height="62.01" name="pay_table">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="help.@2x_png" source.down="help_hover.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" x="175.76" y="551.45" anchorOffsetY="0" height="86.79" anchorOffsetX="0" width="155.98" name="clear">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="clear.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="record_gp" width="1280" height="300" x="0" y="419" anchorOffsetX="0" anchorOffsetY="0" visible="false" locked="true">
+			<e:Image width="1280" height="300" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="history_bg.@2x_png"/>
+			<e:Group width="1118" height="270" x="145" y="16" anchorOffsetX="0" anchorOffsetY="0" name="gp">
+				<e:Group width="92" height="269" x="36" y="32" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+						<e:Label text="牛牛" x="16" y="13" textColor="0x087c04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+						<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+						<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+						<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+						<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+						<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+						<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+						<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="46" y="42" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="56" y="52" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="66" y="62" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="76" y="72" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="86" y="82" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="96" y="92" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="106" y="102" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="116" y="112" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="126" y="122" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="136" y="132" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="92" height="269" x="146" y="142" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group width="91.5" height="60" x="28" y="36" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="38" y="46" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="48" y="56" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:Group width="91.5" height="60" x="58" y="66" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="60" height="35" x="16" y="13" anchorOffsetX="0" anchorOffsetY="0" source="Niu.@2x_png"/>
+					<e:Label text="牛牛" x="16" y="13" textColor="0x087C04" bold="true"/>
+					<e:Image width="25" height="25" x="0" y="0" source="win_icon.@2x_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					</e:Group>
+					<e:layout>
+					<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="0" paddingRight="0" gap="0.7"/>
+				</e:layout>
+			</e:Group>
+			<e:Button label="" x="12.66" y="-64.84" anchorOffsetY="0" height="63.17" anchorOffsetX="0" width="159.17">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="history_on.@2x_png" source.down="history_on_hover-17.@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="pay_table_gp" width="1280" height="720" x="0" y="0" visible="false">
+			<e:Image width="883.34" height="584.67" x="198.66" y="69.33" source="rules_bg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button label="" x="1035" y="63.5" width="50" height="50" name="close">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="close_png" source.down="close_hover_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Scroller id="pay_table_s_rect" width="878" height="520" x="197.33" y="118.66" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+				<e:Group anchorOffsetX="0" width="839.33" anchorOffsetY="0" height="452">
+					<e:Image width="835" height="2500" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Manual_jpg"/>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>
