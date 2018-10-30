@@ -1,5 +1,6 @@
 class GameService {
-	private host = "http://192.168.0.120:8000/";
+	//private host = "http://192.168.0.120:8000/";
+    private host = "http://192.168.0.101/";
 	private gameInfo = "game/Niuniuinfo";
 	private makeBet = "game/NiuniuBet";
 
@@ -9,7 +10,6 @@ class GameService {
     public static instance?: GameService;
 
     constructor() {
-        const protocol = document.location.protocol === 'https:' ? 'https' : 'http';
     }
 
     public info(username, token, onComplete, onIOError, onProgress) {
@@ -21,13 +21,11 @@ class GameService {
     }
 
 	public MakeBet(username, bets, token, onComplete, onIOError, onProgress){
-		let BetParams = {username:bets}
-		let betParamsJson = JSON.stringify(BetParams)
-		let param = {
-			"HTTP_TOKEN": token,
-			"param": betParamsJson
-		}
-		this.httpReq(this.makeBet, param, token, onComplete, onIOError, onProgress, "application/json");
+        let paramJson = {
+			"HTTP_TOKEN":token,
+            "param":JSON.stringify({"username":username,"bets":bets})
+        };
+        this.httpReq(this.makeBet, JSON.stringify(paramJson), token, onComplete, onIOError, onProgress, "application/json");
 	}
 
     private httpReq(url, data, token, onComplete, onIOError, onProgress, type) {

@@ -3,10 +3,10 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 };
 var GameService = (function () {
     function GameService() {
-        this.host = "http://192.168.0.120:8000/";
+        //private host = "http://192.168.0.120:8000/";
+        this.host = "http://192.168.0.101/";
         this.gameInfo = "game/Niuniuinfo";
         this.makeBet = "game/NiuniuBet";
-        var protocol = document.location.protocol === 'https:' ? 'https' : 'http';
     }
     GameService.prototype.info = function (username, token, onComplete, onIOError, onProgress) {
         var paramJson = {
@@ -16,13 +16,11 @@ var GameService = (function () {
         this.httpReq(this.gameInfo, JSON.stringify(paramJson), token, onComplete, onIOError, onProgress, "application/json");
     };
     GameService.prototype.MakeBet = function (username, bets, token, onComplete, onIOError, onProgress) {
-        var BetParams = { username: bets };
-        var betParamsJson = JSON.stringify(BetParams);
-        var param = {
+        var paramJson = {
             "HTTP_TOKEN": token,
-            "param": betParamsJson
+            "param": JSON.stringify({ "username": username, "bets": bets })
         };
-        this.httpReq(this.makeBet, param, token, onComplete, onIOError, onProgress, "application/json");
+        this.httpReq(this.makeBet, JSON.stringify(paramJson), token, onComplete, onIOError, onProgress, "application/json");
     };
     GameService.prototype.httpReq = function (url, data, token, onComplete, onIOError, onProgress, type) {
         var request = new egret.HttpRequest();

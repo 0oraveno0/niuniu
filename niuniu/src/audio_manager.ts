@@ -2,7 +2,7 @@ class audio_manager{
 	public static instance?: audio_manager;
 	public init = false;
 	public sound = {};
-	public mute_bool = false;
+	public mute_bool = true;
 	public static getAudioManager() {
         if (!audio_manager.instance) {
             audio_manager.instance = new audio_manager();

@@ -5,7 +5,7 @@ var audio_manager = (function () {
     function audio_manager() {
         this.init = false;
         this.sound = {};
-        this.mute_bool = false;
+        this.mute_bool = true;
     }
     audio_manager.getAudioManager = function () {
         if (!audio_manager.instance) {
