@@ -1,11 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "loading_bg.@2x_png,yellow_png,loading_bg.@2x2_png",
+			"keys": "loading_bg.@2x_png,yellow_png",
 			"name": "preload"
 		},
 		{
-			"keys": "icon_jpg,card_back_png,club_1_png,club_10_png,club_11_png,club_12_png,club_13_png,club_2_png,club_3_png,club_4_png,club_5_png,club_6_png,club_7_png,club_8_png,club_9_png,diamond_1_png,diamond_10_png,diamond_11_png,diamond_12_png,diamond_13_png,diamond_2_png,diamond_3_png,diamond_4_png,diamond_5_png,diamond_6_png,diamond_7_png,diamond_8_png,diamond_9_png,heart_1_png,heart_10_png,heart_11_png,heart_12_png,heart_13_png,heart_2_png,heart_3_png,heart_4_png,heart_5_png,heart_6_png,heart_7_png,heart_8_png,heart_9_png,spade_1_png,spade_10_png,spade_11_png,spade_12_png,spade_13_png,spade_2_png,spade_3_png,spade_4_png,spade_5_png,spade_6_png,spade_7_png,spade_8_png,spade_9_png,100_big.@2x_png,10_big.@2x_png,1_big.@2x_png,25_big.@2x_png,500_big.@2x_png,5_big.@2x_png,-double.@2x_png,-double_hover.@2x_png,Banker_bg.@2x_png,Manual_jpg,MultipleBg_png,Player_bg.@2x_png,Selected_1.@2x_png,Selected_2.@2x_png,Selected_3.@2x_png,Selected_4.@2x_png,Selected_5.@2x_png,Selected_6.@2x_png,Voice_off.@2x_png,Voice_on.@2x_png,back.@2x_png,back_hover.@2x_png,balance.@2x_png,clear.@2x_png,clear_hover.@2x_png,close_png,close_hover_png,help.@2x_png,help_hover.@2x_png,history_bg.@2x_png,history_off.@2x_png,history_on.@2x_png,money_bg.@2x_png,money_bg.@2x3_png,next.@2x_png,next_hover.@2x_png,normal.@2x_png,normal_hover.@2x_png,ok_png,ok_hover_png,rules_bg_png,start.@2x_png,start_hover.@2x_png,tips.@2x_png,tips_bg_png,win_icon.@2x_png,thumb_png,track_png,tracklight_png,roundthumb_png,track_sb_png,white_png,确认@3x_png,bg_png,grey_png,BGM2_mp3,BtnClick_wav,Coin_wav,Flip_wav,loading_bg.@2x_png,yellow_png,loading_bg.@2x2_png,niuniu_niu1_png,niuniu_niu2_png,niuniu_niu3_png,niuniu_niu4_png,niuniu_niu5_png,niuniu_niu6_png,niuniu_niu7_png,niuniu_niu8_png,niuniu_niu9_png,niuniu_niuniu_png,niuniu_niuno_png",
+			"keys": "icon_jpg,100_big.@2x_png,10_big.@2x_png,1_big.@2x_png,25_big.@2x_png,500_big.@2x_png,5_big.@2x_png,-double.@2x_png,-double_hover.@2x_png,Banker_bg.@2x_png,Manual_jpg,MultipleBg_png,Player_bg.@2x_png,Selected_1.@2x_png,Selected_2.@2x_png,Selected_3.@2x_png,Selected_4.@2x_png,Selected_5.@2x_png,Selected_6.@2x_png,Voice_off.@2x_png,Voice_on.@2x_png,back.@2x_png,back_hover.@2x_png,balance.@2x_png,clear.@2x_png,clear_hover.@2x_png,close_png,close_hover_png,help.@2x_png,help_hover.@2x_png,history_bg.@2x_png,history_off.@2x_png,history_on.@2x_png,money_bg.@2x_png,money_bg.@2x3_png,next.@2x_png,next_hover.@2x_png,normal.@2x_png,normal_hover.@2x_png,ok_png,ok_hover_png,rules_bg_png,start.@2x_png,start_hover.@2x_png,tips.@2x_png,tips_bg_png,win_icon.@2x_png,thumb_png,track_png,tracklight_png,roundthumb_png,track_sb_png,white_png,确认@3x_png,bg_png,grey_png,BGM2_mp3,BtnClick_wav,Coin_wav,Flip_wav,loading_bg.@2x_png,yellow_png,niuniu_niu1_png,niuniu_niu2_png,niuniu_niu3_png,niuniu_niu4_png,niuniu_niu5_png,niuniu_niu6_png,niuniu_niu7_png,niuniu_niu8_png,niuniu_niu9_png,niuniu_niuniu_png,niuniu_niuno_png,c1_png,c10_png,c11_png,c12_png,c13_png,c2_png,c3_png,c4_png,c5_png,c6_png,c7_png,c8_png,c9_png,card_back_png,club_1_png,club_2_png,d1_png,d10_png,d11_png,d12_png,d13_png,d2_png,d3_png,d4_png,d5_png,d6_png,d7_png,d8_png,d9_png,h1_png,h10_png,h11_png,h12_png,h13_png,h2_png,h3_png,h4_png,h5_png,h6_png,h7_png,h8_png,h9_png,s1_png,s10_png,s11_png,s12_png,s13_png,s2_png,s3_png,s4_png,s5_png,s6_png,s7_png,s8_png,s9_png,b_niuniu_niu1_png,b_niuniu_niu2_png,b_niuniu_niu3_png,b_niuniu_niu4_png,b_niuniu_niu5_png,b_niuniu_niu6_png,b_niuniu_niu7_png,b_niuniu_niu8_png,b_niuniu_niu9_png,b_niuniu_niuno_png,p_niuniu_niu1_png,p_niuniu_niu2_png,p_niuniu_niu3_png,p_niuniu_niu4_png,p_niuniu_niu5_png,p_niuniu_niu6_png,p_niuniu_niu7_png,p_niuniu_niu8_png,p_niuniu_niu9 _png,p_niuniu_niuno_png",
 			"name": "resource"
 		}
 	],
@@ -14,271 +14,6 @@
 			"url": "art/Sprite/icon.jpg",
 			"type": "image",
 			"name": "icon_jpg"
-		},
-		{
-			"url": "art/Sprite/Cards/card_back.png",
-			"type": "image",
-			"name": "card_back_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_1.png",
-			"type": "image",
-			"name": "club_1_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_10.png",
-			"type": "image",
-			"name": "club_10_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_11.png",
-			"type": "image",
-			"name": "club_11_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_12.png",
-			"type": "image",
-			"name": "club_12_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_13.png",
-			"type": "image",
-			"name": "club_13_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_2.png",
-			"type": "image",
-			"name": "club_2_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_3.png",
-			"type": "image",
-			"name": "club_3_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_4.png",
-			"type": "image",
-			"name": "club_4_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_5.png",
-			"type": "image",
-			"name": "club_5_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_6.png",
-			"type": "image",
-			"name": "club_6_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_7.png",
-			"type": "image",
-			"name": "club_7_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_8.png",
-			"type": "image",
-			"name": "club_8_png"
-		},
-		{
-			"url": "art/Sprite/Cards/club_9.png",
-			"type": "image",
-			"name": "club_9_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_1.png",
-			"type": "image",
-			"name": "diamond_1_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_10.png",
-			"type": "image",
-			"name": "diamond_10_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_11.png",
-			"type": "image",
-			"name": "diamond_11_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_12.png",
-			"type": "image",
-			"name": "diamond_12_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_13.png",
-			"type": "image",
-			"name": "diamond_13_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_2.png",
-			"type": "image",
-			"name": "diamond_2_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_3.png",
-			"type": "image",
-			"name": "diamond_3_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_4.png",
-			"type": "image",
-			"name": "diamond_4_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_5.png",
-			"type": "image",
-			"name": "diamond_5_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_6.png",
-			"type": "image",
-			"name": "diamond_6_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_7.png",
-			"type": "image",
-			"name": "diamond_7_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_8.png",
-			"type": "image",
-			"name": "diamond_8_png"
-		},
-		{
-			"url": "art/Sprite/Cards/diamond_9.png",
-			"type": "image",
-			"name": "diamond_9_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_1.png",
-			"type": "image",
-			"name": "heart_1_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_10.png",
-			"type": "image",
-			"name": "heart_10_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_11.png",
-			"type": "image",
-			"name": "heart_11_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_12.png",
-			"type": "image",
-			"name": "heart_12_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_13.png",
-			"type": "image",
-			"name": "heart_13_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_2.png",
-			"type": "image",
-			"name": "heart_2_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_3.png",
-			"type": "image",
-			"name": "heart_3_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_4.png",
-			"type": "image",
-			"name": "heart_4_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_5.png",
-			"type": "image",
-			"name": "heart_5_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_6.png",
-			"type": "image",
-			"name": "heart_6_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_7.png",
-			"type": "image",
-			"name": "heart_7_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_8.png",
-			"type": "image",
-			"name": "heart_8_png"
-		},
-		{
-			"url": "art/Sprite/Cards/heart_9.png",
-			"type": "image",
-			"name": "heart_9_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_1.png",
-			"type": "image",
-			"name": "spade_1_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_10.png",
-			"type": "image",
-			"name": "spade_10_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_11.png",
-			"type": "image",
-			"name": "spade_11_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_12.png",
-			"type": "image",
-			"name": "spade_12_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_13.png",
-			"type": "image",
-			"name": "spade_13_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_2.png",
-			"type": "image",
-			"name": "spade_2_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_3.png",
-			"type": "image",
-			"name": "spade_3_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_4.png",
-			"type": "image",
-			"name": "spade_4_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_5.png",
-			"type": "image",
-			"name": "spade_5_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_6.png",
-			"type": "image",
-			"name": "spade_6_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_7.png",
-			"type": "image",
-			"name": "spade_7_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_8.png",
-			"type": "image",
-			"name": "spade_8_png"
-		},
-		{
-			"url": "art/Sprite/Cards/spade_9.png",
-			"type": "image",
-			"name": "spade_9_png"
 		},
 		{
 			"url": "art/Sprite/Coins/100_big.@2x.png",
@@ -586,11 +321,6 @@
 			"name": "grey_png"
 		},
 		{
-			"url": "art/Sprite/UI/loading_bg.@2x.png",
-			"type": "image",
-			"name": "loading_bg.@2x2_png"
-		},
-		{
 			"url": "art/Sprite/UI/niuniu_niu1.png",
 			"type": "image",
 			"name": "niuniu_niu1_png"
@@ -644,6 +374,381 @@
 			"url": "art/Sprite/UI/niuniu_niuno.png",
 			"type": "image",
 			"name": "niuniu_niuno_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c1.png",
+			"type": "image",
+			"name": "c1_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c10.png",
+			"type": "image",
+			"name": "c10_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c11.png",
+			"type": "image",
+			"name": "c11_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c12.png",
+			"type": "image",
+			"name": "c12_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c13.png",
+			"type": "image",
+			"name": "c13_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c2.png",
+			"type": "image",
+			"name": "c2_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c3.png",
+			"type": "image",
+			"name": "c3_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c4.png",
+			"type": "image",
+			"name": "c4_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c5.png",
+			"type": "image",
+			"name": "c5_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c6.png",
+			"type": "image",
+			"name": "c6_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c7.png",
+			"type": "image",
+			"name": "c7_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c8.png",
+			"type": "image",
+			"name": "c8_png"
+		},
+		{
+			"url": "art/Sprite/Cards/c9.png",
+			"type": "image",
+			"name": "c9_png"
+		},
+		{
+			"url": "art/Sprite/Cards/card_back.png",
+			"type": "image",
+			"name": "card_back_png"
+		},
+		{
+			"url": "art/Sprite/Cards/club_1.png",
+			"type": "image",
+			"name": "club_1_png"
+		},
+		{
+			"url": "art/Sprite/Cards/club_2.png",
+			"type": "image",
+			"name": "club_2_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d1.png",
+			"type": "image",
+			"name": "d1_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d10.png",
+			"type": "image",
+			"name": "d10_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d11.png",
+			"type": "image",
+			"name": "d11_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d12.png",
+			"type": "image",
+			"name": "d12_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d13.png",
+			"type": "image",
+			"name": "d13_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d2.png",
+			"type": "image",
+			"name": "d2_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d3.png",
+			"type": "image",
+			"name": "d3_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d4.png",
+			"type": "image",
+			"name": "d4_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d5.png",
+			"type": "image",
+			"name": "d5_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d6.png",
+			"type": "image",
+			"name": "d6_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d7.png",
+			"type": "image",
+			"name": "d7_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d8.png",
+			"type": "image",
+			"name": "d8_png"
+		},
+		{
+			"url": "art/Sprite/Cards/d9.png",
+			"type": "image",
+			"name": "d9_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h1.png",
+			"type": "image",
+			"name": "h1_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h10.png",
+			"type": "image",
+			"name": "h10_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h11.png",
+			"type": "image",
+			"name": "h11_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h12.png",
+			"type": "image",
+			"name": "h12_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h13.png",
+			"type": "image",
+			"name": "h13_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h2.png",
+			"type": "image",
+			"name": "h2_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h3.png",
+			"type": "image",
+			"name": "h3_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h4.png",
+			"type": "image",
+			"name": "h4_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h5.png",
+			"type": "image",
+			"name": "h5_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h6.png",
+			"type": "image",
+			"name": "h6_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h7.png",
+			"type": "image",
+			"name": "h7_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h8.png",
+			"type": "image",
+			"name": "h8_png"
+		},
+		{
+			"url": "art/Sprite/Cards/h9.png",
+			"type": "image",
+			"name": "h9_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s1.png",
+			"type": "image",
+			"name": "s1_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s10.png",
+			"type": "image",
+			"name": "s10_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s11.png",
+			"type": "image",
+			"name": "s11_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s12.png",
+			"type": "image",
+			"name": "s12_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s13.png",
+			"type": "image",
+			"name": "s13_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s2.png",
+			"type": "image",
+			"name": "s2_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s3.png",
+			"type": "image",
+			"name": "s3_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s4.png",
+			"type": "image",
+			"name": "s4_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s5.png",
+			"type": "image",
+			"name": "s5_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s6.png",
+			"type": "image",
+			"name": "s6_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s7.png",
+			"type": "image",
+			"name": "s7_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s8.png",
+			"type": "image",
+			"name": "s8_png"
+		},
+		{
+			"url": "art/Sprite/Cards/s9.png",
+			"type": "image",
+			"name": "s9_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu1.png",
+			"type": "image",
+			"name": "b_niuniu_niu1_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu2.png",
+			"type": "image",
+			"name": "b_niuniu_niu2_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu3.png",
+			"type": "image",
+			"name": "b_niuniu_niu3_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu4.png",
+			"type": "image",
+			"name": "b_niuniu_niu4_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu5.png",
+			"type": "image",
+			"name": "b_niuniu_niu5_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu6.png",
+			"type": "image",
+			"name": "b_niuniu_niu6_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu7.png",
+			"type": "image",
+			"name": "b_niuniu_niu7_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu8.png",
+			"type": "image",
+			"name": "b_niuniu_niu8_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niu9.png",
+			"type": "image",
+			"name": "b_niuniu_niu9_png"
+		},
+		{
+			"url": "art/Sprite/UI/b_niuniu_niuno.png",
+			"type": "image",
+			"name": "b_niuniu_niuno_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu1.png",
+			"type": "image",
+			"name": "p_niuniu_niu1_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu2.png",
+			"type": "image",
+			"name": "p_niuniu_niu2_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu3.png",
+			"type": "image",
+			"name": "p_niuniu_niu3_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu4.png",
+			"type": "image",
+			"name": "p_niuniu_niu4_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu5.png",
+			"type": "image",
+			"name": "p_niuniu_niu5_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu6.png",
+			"type": "image",
+			"name": "p_niuniu_niu6_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu7.png",
+			"type": "image",
+			"name": "p_niuniu_niu7_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu8.png",
+			"type": "image",
+			"name": "p_niuniu_niu8_png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niu9 .png",
+			"type": "image",
+			"name": "p_niuniu_niu9 _png"
+		},
+		{
+			"url": "art/Sprite/UI/p_niuniu_niuno.png",
+			"type": "image",
+			"name": "p_niuniu_niuno_png"
 		}
 	]
 }

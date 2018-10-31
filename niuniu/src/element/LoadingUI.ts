@@ -25,7 +25,7 @@
 
         this.loadingBar = new egret.Bitmap();
         this.loadingBar.texture = RES.getRes('yellow_png');
-        this.loadingBar.y = 600;
+        this.loadingBar.y = 570;
         this.loadingBar.x = 0;
         this.loadingBar.width = 1075;
         this.loadingBar.height = 10;

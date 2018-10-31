@@ -19,7 +19,7 @@ var GameUI = (function (_super) {
         _this.rec_gp = {};
         _this.paytable = {};
         _this.chip_range_arr = [1, 5, 10, 25, 100, 500];
-        _this.card_sprite_arr = ["diamond", "club", "heart", "spade"];
+        _this.card_sprite_arr = ["d", "c", "h", "s"];
         _this.data = {};
         _this.skinName = "resource/custom_skin/gameUISkin_v0.exml";
         _this.load_data();
@@ -63,11 +63,9 @@ var GameUI = (function (_super) {
                     this.card_gp["toggle"][String(toggle_index)] = {};
                     this.card_gp["gp"][String(i)]["1"][String(j)] = {};
                     this.card_gp["gp"][String(i)]["1"][String(j)]["gp"] = this.card_gp["gp"][String(i)]["1"]["gp"].getChildAt(j);
-                    this.card_gp["gp"][String(i)]["1"][String(j)]["0"] = {};
-                    this.card_gp["gp"][String(i)]["1"][String(j)]["0"]["gp"] = this.card_gp["gp"][String(i)]["1"][String(j)]["gp"].getChildAt(0);
                     this.card_gp["toggle"][String(toggle_index)] = {};
-                    this.card_gp["toggle"][String(toggle_index)]["ratio"] = this.card_gp["gp"][String(i)]["1"][String(j)]["0"]["gp"].getChildAt(1);
-                    this.card_gp["toggle"][String(toggle_index)]["toggle"] = this.card_gp["gp"][String(i)]["1"][String(j)]["gp"].getChildAt(1);
+                    this.card_gp["toggle"][String(toggle_index)]["toggle"] = this.card_gp["gp"][String(i)]["1"][String(j)]["gp"].getChildAt(0);
+                    this.card_gp["toggle"][String(toggle_index)]["ratio"] = this.card_gp["gp"][String(i)]["1"][String(j)]["gp"].getChildAt(1);
                     toggle_index++;
                 }
             }
@@ -78,9 +76,12 @@ var GameUI = (function (_super) {
             this.card_gp["card"][String(i)]["prize"] = {};
             this.card_gp["card"][String(i)]["prize"]["gp"] = gp.getChildAt(5);
             this.card_gp["card"][String(i)]["prize"]["bg"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(0);
-            this.card_gp["card"][String(i)]["prize"]["text"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(1);
-            this.card_gp["card"][String(i)]["prize"]["img"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(2);
-            if (i != 0) {
+            if (i == 0) {
+                this.card_gp["card"][String(i)]["prize"]["img"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(1);
+            }
+            else {
+                this.card_gp["card"][String(i)]["prize"]["bg_2"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(1);
+                this.card_gp["card"][String(i)]["prize"]["img"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(2);
                 this.card_gp["card"][String(i)]["prize"]["win"] = this.card_gp["card"][String(i)]["prize"]["gp"].getChildAt(3);
             }
         }
@@ -142,11 +143,10 @@ var GameUI = (function (_super) {
         this.paytable["close"] = this.paytable["gp"].getChildByName("close");
     };
     GameUI.prototype.init = function () {
-        egret.localStorage.clear();
         this.username = egret.getOption('username') ? egret.getOption('username') : 'fish036';
         this.balance = Number(egret.getOption('balance') ? egret.getOption('balance') : '1000');
         this.token = egret.getOption('token') ? egret.getOption('token') : 'AAD4MFJYD40M9BI012MVX5O8RHK6V5';
-        //GameUI.username = egret.getOption('username') ? egret.getOption('username') : 'zhangyanli';
+        //this.username = egret.getOption('username') ? egret.getOption('username') : 'zhangyanli';
         //GameUI.token = egret.getOption('token') ? egret.getOption('token') : '624ee884f9314fd1a7438de68f08474c';
         //GameUI.username = egret.getOption('username');
         //GameUI.balance = Number(egret.getOption('balance'));
@@ -159,7 +159,7 @@ var GameUI = (function (_super) {
             }
         )(this),
         (error) => {},() => { });*/
-        this.btn_gp["balance"].text = "$ " + this.balance;
+        this.btn_gp["balance"].text = this.get_balance_str(this.balance);
         //console.log(this.btn_gp["balance"].textColor)
         /*for(let i = 0;i<6;i++){
             let tg = this.card_gp["toggle"][String(i)];
@@ -215,20 +215,34 @@ var GameUI = (function (_super) {
             for (var i = 0; i < 12; i++) {
                 if (data[i] != null) {
                     for (var j = 0; j < 4; j++) {
-                        var rec = this.rec_gp[String(i)][String(j)];
+                        var _j = j;
+                        if (_j == 1) {
+                            _j = 3;
+                        }
+                        else if (_j == 3) {
+                            _j = 1;
+                        }
+                        var rec = this.rec_gp[String(i)][String(_j)];
                         rec.gp.visible = true;
-                        if (data[i][j] == "牛牛") {
+                        var img_cor = "";
+                        if (j == 0) {
+                            img_cor = "b_";
+                        }
+                        else {
+                            img_cor = "p_";
+                        }
+                        if (data[i][j] == "牛牛" || data[i][j] == "公牛（5花）") {
                             rec.img.visible = true;
                             rec.img.source = "niuniu_niuniu_png";
                         }
                         else if (data[i][j] == "无牛") {
                             rec.img.visible = true;
-                            rec.img.source = "niuniu_niuno_png";
+                            rec.img.source = img_cor + "niuniu_niuno_png";
                         }
                         else {
                             var d = data[i][j].split(" ");
                             rec.img.visible = true;
-                            rec.img.source = "niuniu_niu" + d[1] + "_png";
+                            rec.img.source = img_cor + "niuniu_niu" + d[1] + "_png";
                         }
                         if (j != 0) {
                             if (data[i][j + 4] == "t") {
@@ -284,6 +298,7 @@ var GameUI = (function (_super) {
         tg.label.img.width = 0;
         tg.label.text.text = "";
         tg.chip.removeChildren();
+        tg.ratio.text = "1:1";
         tg.count = 0;
     };
     GameUI.prototype.muteBtnHandler = function () {
@@ -416,8 +431,6 @@ var GameUI = (function (_super) {
         for (var i = 0; i < 4; i++) {
             var prize = this.card_gp["card"][String(i)]["prize"];
             prize.gp.visible = false;
-            prize.img.visible = false;
-            prize.text.text = "";
             if (i != 0) {
                 prize.win.text = "";
             }
@@ -621,21 +634,33 @@ var GameUI = (function (_super) {
             c_to.visible = true;
             if (num == 999) {
                 var sprite_num = _this.data["cards"]["first"];
-                c_to.source = _this.card_sprite_arr[sprite_num % 4] + "_" + [Math.floor((sprite_num - 1) / 4) + 1] + "_png";
+                c_to.source = _this.card_sprite_arr[sprite_num % 4] + [Math.floor((sprite_num - 1) / 4) + 1] + "_png";
             }
             else {
                 var sprite_num = _this.data["cards"][player_id][String(_j)];
-                c_to.source = _this.card_sprite_arr[sprite_num % 4] + "_" + [Math.floor((sprite_num - 1) / 4) + 1] + "_png";
+                c_to.source = _this.card_sprite_arr[sprite_num % 4] + [Math.floor((sprite_num - 1) / 4) + 1] + "_png";
                 if (_j == 4) {
                     var p_des = _this.data["points"][player_id].description;
                     var c_prize = card[String(_i)]["prize"];
-                    if (_this.data["points"][player_id].prize_id == "niuniu") {
-                        c_prize.text.text = "";
-                        c_prize.img.visible = true;
+                    var img_cor = "";
+                    if (player_id == "banker") {
+                        img_cor = "b_";
                     }
                     else {
-                        c_prize.text.text = p_des;
-                        c_prize.img.visible = false;
+                        img_cor = "p_";
+                    }
+                    c_prize.bg.visible = true;
+                    if (c_prize.bg_2 != null)
+                        c_prize.bg_2.visible = false;
+                    if (p_des == "牛牛" || p_des == "公牛（5花）") {
+                        c_prize.img.source = "niuniu_niuniu_png";
+                    }
+                    else if (p_des == "无牛") {
+                        c_prize.img.source = img_cor + "niuniu_niuno_png";
+                    }
+                    else {
+                        var d = p_des.split(" ");
+                        c_prize.img.source = img_cor + "niuniu_niu" + d[1] + "_png";
                     }
                     c_prize.gp.visible = true;
                 }
@@ -655,6 +680,29 @@ var GameUI = (function (_super) {
                 var result_money = _this.get_result_money();
                 for (var i = 0; i < 3; i++) {
                     if (result_money[i] != null) {
+                        _this.card_gp["card"][String(i + 1)]["prize"]["bg"].visible = false;
+                        _this.card_gp["card"][String(i + 1)]["prize"]["bg_2"].visible = true;
+                        if (_this.card_gp["toggle"][String(i * 2 + 1)]["count"] != 0) {
+                            var p_des = "";
+                            if (result_money[i] >= 0) {
+                                p_des = _this.data["points"][_this.get_data_player_id(i + 1)].description;
+                            }
+                            else {
+                                p_des = _this.data["points"][_this.get_data_player_id(0)].description;
+                            }
+                            if (p_des == "公牛（5花）") {
+                                _this.card_gp["toggle"][String(i * 2 + 1)]["ratio"].text = "1:5";
+                            }
+                            else if (p_des == "牛牛") {
+                                _this.card_gp["toggle"][String(i * 2 + 1)]["ratio"].text = "1:3";
+                            }
+                            else if (p_des == "牛 9" || p_des == "牛 8" || p_des == "牛 7") {
+                                _this.card_gp["toggle"][String(i * 2 + 1)]["ratio"].text = "1:2";
+                            }
+                            else {
+                                _this.card_gp["toggle"][String(i * 2 + 1)]["ratio"].text = "1:1";
+                            }
+                        }
                         if (result_money[i] >= 0) {
                             _this.card_gp["card"][String(i + 1)]["prize"]["win"].text = "羸 :" + String(result_money[i]);
                             _this.card_gp["card"][String(i + 1)]["prize"]["win"].textColor = 15668496;
@@ -662,7 +710,7 @@ var GameUI = (function (_super) {
                         else {
                             result_money[i] *= -1;
                             _this.card_gp["card"][String(i + 1)]["prize"]["win"].text = "输 :" + String(result_money[i]);
-                            _this.card_gp["card"][String(i + 1)]["prize"]["win"].textColor = 3845;
+                            _this.card_gp["card"][String(i + 1)]["prize"]["win"].textColor = 64548;
                         }
                     }
                     else {
@@ -670,13 +718,28 @@ var GameUI = (function (_super) {
                     }
                 }
                 _this.audio.play_sound("BtnClick_wav");
-                _this.btn_gp["balance"].text = "$ " + _this.data["balance"];
+                _this.btn_gp["balance"].text = _this.get_balance_str(_this.data["balance"]);
                 _this.disable_btn(true);
                 _this.btn_gp["gp"]["coin_btn_gp"].visible = false;
                 _this.btn_gp["clear"].visible = false;
             }
             Timer.stop();
         }, Timer.start());
+    };
+    GameUI.prototype.get_balance_str = function (num) {
+        var s = "";
+        num = (num * 100).toFixed(0);
+        var _s = num.split("");
+        for (var i = 0; i < _s.length; i++) {
+            s = s + _s[i];
+            if (i == _s.length - 3) {
+                s = s + ".";
+            }
+            else if ((_s.length - 1 - i) % 3 == 2 && _s.length - 3 > i) {
+                s = s + ",";
+            }
+        }
+        return s;
     };
     GameUI.prototype.get_result_money = function () {
         var resut_num = [];

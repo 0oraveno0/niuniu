@@ -3,10 +3,11 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 };
 var GameService = (function () {
     function GameService() {
-        //private host = "http://192.168.0.120:8000/";
-        this.host = "http://192.168.0.101/";
+        //private host = "http://192.168.0.101/";
         this.gameInfo = "game/Niuniuinfo";
         this.makeBet = "game/NiuniuBet";
+        var protocol = document.location.protocol === 'https:' ? 'https' : 'http';
+        this.host = protocol + "://hec-dev-slotback.bigbrothers.info/";
     }
     GameService.prototype.info = function (username, token, onComplete, onIOError, onProgress) {
         var paramJson = {
