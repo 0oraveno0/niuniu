@@ -7,7 +7,9 @@ var GameService = (function () {
         this.gameInfo = "game/Niuniuinfo";
         this.makeBet = "game/NiuniuBet";
         var protocol = document.location.protocol === 'https:' ? 'https' : 'http';
-        this.host = protocol + "://hec-dev-slotback.bigbrothers.info/";
+        //this.host = protocol + "http://192.168.0.120:8000/";
+        //this.host = protocol + "://hec-dev-slotback.bigbrothers.info/";
+        this.host = protocol + "://bj.mmht88.com/";
     }
     GameService.prototype.info = function (username, token, onComplete, onIOError, onProgress) {
         var paramJson = {

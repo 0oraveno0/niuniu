@@ -143,14 +143,14 @@ var GameUI = (function (_super) {
         this.paytable["close"] = this.paytable["gp"].getChildByName("close");
     };
     GameUI.prototype.init = function () {
-        this.username = egret.getOption('username') ? egret.getOption('username') : 'fish036';
-        this.balance = Number(egret.getOption('balance') ? egret.getOption('balance') : '1000');
-        this.token = egret.getOption('token') ? egret.getOption('token') : 'AAD4MFJYD40M9BI012MVX5O8RHK6V5';
+        //this.username = egret.getOption('username') ? egret.getOption('username') : 'fish036';
+        //this.balance = Number(egret.getOption('balance')? egret.getOption('balance') : '1000');
+        //this.token = egret.getOption('token') ? egret.getOption('token') : 'AAD4MFJYD40M9BI012MVX5O8RHK6V5';
         //this.username = egret.getOption('username') ? egret.getOption('username') : 'zhangyanli';
-        //GameUI.token = egret.getOption('token') ? egret.getOption('token') : '624ee884f9314fd1a7438de68f08474c';
-        //GameUI.username = egret.getOption('username');
-        //GameUI.balance = Number(egret.getOption('balance'));
-        //GameUI.token = egret.getOption('token');
+        //this.token = egret.getOption('token') ? egret.getOption('token') : '624ee884f9314fd1a7438de68f08474c';
+        this.username = egret.getOption('username');
+        this.balance = Number(egret.getOption('balance'));
+        this.token = egret.getOption('token');
         /*this.service.info(this.username,this.token,
             (function (that:GameUI) {
                 return function (event: egret.Event) {

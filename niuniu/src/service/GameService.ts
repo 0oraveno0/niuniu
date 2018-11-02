@@ -1,6 +1,4 @@
 class GameService {
-	//private host = "http://192.168.0.120:8000/";
-    //private host = "http://bj.mmht88.com/";
     private host;
     //private host = "http://192.168.0.101/";
 	private gameInfo = "game/Niuniuinfo";
@@ -13,7 +11,9 @@ class GameService {
 
     constructor() {
         const protocol = document.location.protocol === 'https:' ? 'https' : 'http';
-        this.host = protocol + "://hec-dev-slotback.bigbrothers.info/";
+        //this.host = protocol + "http://192.168.0.120:8000/";
+        //this.host = protocol + "://hec-dev-slotback.bigbrothers.info/";
+        this.host = protocol + "://bj.mmht88.com/";
     }
 
     public info(username, token, onComplete, onIOError, onProgress) {
